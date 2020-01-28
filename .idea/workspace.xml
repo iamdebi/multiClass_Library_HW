@@ -4,12 +4,10 @@
     <list default="true" id="d7f2c552-01ac-48c6-bd33-5ab43667b913" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Borrower.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BookTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BorrowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BorrowerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />

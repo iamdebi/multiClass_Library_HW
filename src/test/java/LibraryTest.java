@@ -18,12 +18,12 @@ public class LibraryTest {
 
     @Before
     public void before(){
-        book1 = new Book("The Catcher in the Rye", "J. D. Salinger");
-        book2 = new Book("Doctor Sleep", "Stephen King");
-        book3 = new Book("Pride and Prejudice", "Jane Austen");
-        book4 = new Book("It", "Stephen King");
-        book5 = new Book("The Whisper Man", "Alex North");
-        book6 = new Book("The Hating Game", "Salley Thorne");
+        book1 = new Book("The Catcher in the Rye", "J. D. Salinger", "Fiction");
+        book2 = new Book("Doctor Sleep", "Stephen King", "Horror");
+        book3 = new Book("Pride and Prejudice", "Jane Austen", "Fiction");
+        book4 = new Book("It", "Stephen King", "Horror");
+        book5 = new Book("The Whisper Man", "Alex North", "Thriller");
+        book6 = new Book("The Hating Game", "Salley Thorne", "Romcom");
         ArrayList <Book> books = new ArrayList<Book>();
         books.add(book1);
         books.add(book2);

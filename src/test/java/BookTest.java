@@ -10,7 +10,7 @@ public class BookTest {
 
     @Before
     public void before(){
-        book = new Book("The Catcher in the Rye", "J. D. Salinger");
+        book = new Book("The Catcher in the Rye", "J. D. Salinger", "Fiction");
     }
 
     @Test
@@ -25,7 +25,6 @@ public class BookTest {
 
     @Test
     public  void canAddGenere(){
-        book.addGenre("genre", "Fiction");
         assertEquals("Fiction", book.getGenre("genre"));
     }
 }
