@@ -20,4 +20,9 @@ public class Library {
             this.stock.add(book);
         }
     }
+
+    public Book removeBook(Book book) {
+        int bookIndex = this.stock.indexOf(book);
+        return this.stock.remove(bookIndex);
+    }
 }

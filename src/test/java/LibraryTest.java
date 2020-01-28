@@ -4,6 +4,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class LibraryTest {
     private Library library;
@@ -47,5 +48,19 @@ public class LibraryTest {
         library.addBook(book5);
         library.addBook(book6);
         assertEquals(5, library.stockCount());
+    }
+
+    @Test
+    public void removeBook(){
+        Book removedBook = library.removeBook(book1);
+        assertEquals(2, library.stockCount());
+        assertNotNull(removedBook);
+    }
+
+    @Test
+    public void removeSpecificBook(){
+        Book removedBook = library.removeBook(book2);
+        assertEquals(2, library.stockCount());
+        assertNotNull(removedBook);
     }
 }
