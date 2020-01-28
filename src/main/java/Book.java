@@ -1,12 +1,14 @@
+import java.util.HashMap;
+
 public class Book {
     private String title;
     private String author;
-    private String genre;
+    private HashMap<String, String> genre;
 
-    public Book(String title, String author, String genre) {
+    public Book(String title, String author) {
         this.title = title;
         this.author = author;
-        this.genre = genre;
+        this.genre = new HashMap<String, String>();
     }
 
     public String getTitle() {
@@ -17,7 +19,12 @@ public class Book {
         return author;
     }
 
-    public String getGenre() {
-        return genre;
+    public String getGenre(String key) {
+        return genre.get(key);
     }
+
+    public void addGenre(String key, String value){
+        this.genre.put(key, value);
+    }
+
 }

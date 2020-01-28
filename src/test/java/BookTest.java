@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashMap;
+
 import static org.junit.Assert.assertEquals;
 
 public class BookTest {
@@ -8,7 +10,7 @@ public class BookTest {
 
     @Before
     public void before(){
-        book = new Book("The Catcher in the Rye", "J. D. Salinger", "Fiction");
+        book = new Book("The Catcher in the Rye", "J. D. Salinger");
     }
 
     @Test
@@ -18,11 +20,12 @@ public class BookTest {
 
     @Test
     public void hasAuthor(){
-        assertEquals("The Catcher in the Rye", book.getAuthor());
+        assertEquals("J. D. Salinger", book.getAuthor());
     }
 
     @Test
-    public void hasGenre(){
-        assertEquals("The Catcher in the Rye", book.getGenre());
+    public  void canAddGenere(){
+        book.addGenre("genre", "Fiction");
+        assertEquals("Fiction", book.getGenre("genre"));
     }
 }
